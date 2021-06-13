@@ -108,7 +108,7 @@ class Onequestion extends Component {
   render() {
     const { Questions } = this.props;
     const { quest, options, page, score, time } = this.state;
-
+    console.log(this.state);
     if (page === Questions.length) {
       return (
         <div>

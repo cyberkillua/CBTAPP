@@ -6,8 +6,8 @@ html {
 }
 
 body {
-  background: #F4F8FB;
-  width: 1200px;
+  background: #f4f8fb;
+  width: 80%;
   height: 650px;
   margin: auto;
   padding-top: 150px;
@@ -29,26 +29,7 @@ h1 {
   text-decoration: none;
 }
 
-
-.form {
-  width: 450px;
-  padding-top: 50px;
-  margin: auto;
-}
-
-.form input {
-  font-family: sans-serif;
-  outline: 0;
-  background: #f2f2f2;
-  width: 100%;
-  border: 0;
-  margin: 0 0 15px;
-  padding: 15px;
-  box-sizing: border-box;
-  font-size: 14px;
-}
-
-.Link{
+.Link {
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   outline: 0;
@@ -67,26 +48,14 @@ h1 {
   display: table;
   margin: 20px auto;
   border: none;
-  
-}
-
-.form button:hover,
-.form button:active,
-.form button:focus {
-  background: #7b8589;
 }
 
 .big-div {
   margin: auto;
   width: 600px;
-  
+
   height: 450px;
   line-height: 0rem;
-  
-}
-.form-div {
-  background: white;
-  height: 300px;
 }
 
 .start {
@@ -98,15 +67,14 @@ h1 {
   margin: auto;
   width: 50%;
   text-align: center;
-  
 }
 .start h1 {
-    font-weight: 800;
-    font-size: 5rem;
+  font-weight: 800;
+  font-size: 5rem;
 }
 .start p {
-    font-weight: 500;
-    font-size: 3rem;
+  font-weight: 500;
+  font-size: 3rem;
 }
 button {
   font-family: "Roboto", sans-serif;
@@ -125,12 +93,10 @@ button {
 }
 .Question {
   margin: auto;
-  width: 700px;
-  /* margin-top: 200px; */
+  width: 90%;
   height: 400px;
-  background:white;
-  padding: 45px;
-  
+  background: white;
+  padding: 40px;
 }
 .Question h2 {
   font-size: 2.5rem;
@@ -141,8 +107,7 @@ button {
   line-height: 2;
 }
 
-
-.btn-div{
+.btn-div {
   display: flex;
   margin-left: auto;
   width: fit-content;
@@ -155,21 +120,37 @@ button {
   width: 200px;
 }
 .next-div {
-  
   width: fit-content;
   margin-top: -45px;
 }
-.quest-label  {
+.quest-label {
   /* background: blue; */
   font-size: 2rem;
   list-style: none;
-  line-height:1.9;
-	/* padding:0.6rem; */
+  line-height: 1.9;
+  /* padding:0.6rem; */
 }
 .quest-label ul {
   list-style: none;
-
 }
 span {
   padding-right: 15px;
+}
+
+@media (max-width: 769px) {
+  html {
+    font-size: 8px;
+  }
+  body {
+    width: 100%;
+  }
+  .start {
+    width: 100%;
+  }
+  .start h1 {
+    font-size: 3rem;
+  }
+  .Question {
+    width: 70%;
+  }
 }
